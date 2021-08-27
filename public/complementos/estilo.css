@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.barraMenu{
+    height: 50px;
+    background-color: black;
+}
+section{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    margin-top: 30px;
+}
+.botaoNovo{
+    width: 150px;
+    height: 50px;   
+}
+.botaoNovo button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(96, 219, 96);
+    color: white;
+}
+.botaoNovo button:hover{
+    border: solid 2px rgb(164, 255, 26);
+}
+.modal{
+    width: 900px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: grey;
+    display:none;
+    margin: auto;
+    padding-top: 40px;
+    margin-top: 10px;
+}
+.areaCadastro{
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    align-items: center;
+    text-align: center;    
+}
+.areaCadastro input{
+    margin: 10px;
+}
+
+#titulo, #descricao{
+    height: 40px;
+    width: 400px;
+    border-radius: 15px;
+    border: none;
+}
+#data{
+    height: 30px;
+    border-radius: 10px;
+    border: none;    
+}
+#categoria{
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    width: 50px;
+    height: 20px;
+}
+#cadastar, #cancelar{
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    
+}
+#cadastar{
+    background-color: rgb(96, 219, 96);
+    color: white;
+}
+#cadastar:hover{
+    border: solid 3px rgb(164, 255, 26);
+}
+#cancelar{
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+}
+#cancelar:hover{
+    border: solid 3px rgb(160, 6, 6);
+}
+
+table{
+    margin-top: 30px;
+}

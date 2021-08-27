@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud</title>
+    <link rel="stylesheet" href="./complementos/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <div class="barraMenu">
+            <div class="menu">
+
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="botaoNovo">
+            <button id="botaoNovo">NOVO</button>
+        </div>
+        <div class="modal" id="modal">
+            <div class="areaCadastro">
+                <form  id='aZ'action="" method="POST">
+                    Título <br>
+                    <input  type="text" name="" id="titulo"><br>
+                    Descrição<br>
+                    <input type="text" name="" id="descricao"><br>
+                    Selecione a data<br>
+                    <input type="date" name="" id="data"><br>
+                    Selecione a Categoria <br>
+                    <select name="categoria" id="categoria"  required>  
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                    </select>                      
+                </form>
+                <button id="cadastar">Cadastrar</button>
+                <button id="cancelar"> Cancelar</button>              
+
+
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Título</th>
+                    <th scope="col">Descrição</th>
+                    <th scope="col">Data</th>
+                    <th scope="col">Categoria</th>
+                    <th scope="col">Editar/Remover</th>
+                    
+                  </tr>
+                </thead>
+                <tbody  id="dado" >
+                  
+                  
+
+                  
+                  
+                </tbody>
+              </table>
+                
+
+        </div>
+        
+    
+    </section>
+
+
+
+
+
+
+    
+    <script src="../javaScript/funcoes-botoes.js"></script>
+    <script src="../service/cliente-service.js"></script>
+</body>
+</html>
